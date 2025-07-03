@@ -1,0 +1,13 @@
+custom:
+  samurai:
+    baseURL: "https://samuraiapi.in/v1"
+    apiKey: "YOUR_API_KEY"
+    models:
+      - TypeGPT/chatgpt-4o-latest
+    headers:
+      Authorization: "Bearer YOUR_API_KEY"
+      Content-Type: "application/json"
+    type: openai
+    titleConvo: true
+    titleModel: "TypeGPT/chatgpt-4o-latest"
+    displayName: "Samurai"
